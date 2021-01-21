@@ -1,0 +1,31 @@
+cd usr
+cd ..
+git init my_calculator
+mkdir my_calculator
+cd usr
+cd estef
+ls
+cd ~/estef
+mkdir my_calculator
+git init my_calculator
+cd ..
+cd ~/.ssh
+cd ..
+cd my_calculator
+git init my_calculator
+cd ..
+cd ~/my_calculator
+ls
+git remote add origin https://github.com/Estefi1977/my_calculator.git
+git add index.html
+git status
+git commit -m "x^3 button"
+git config --global user.name "Estefi1977"
+git config --global user.email "estefania.bauza.illan@gmail.com"
+git commit -m "x^3 button"
+git log --oneline
+git add index.html
+git commit -m "x^4 button"
+git push origin main
+git push origin master
+history -w EstefaniaBauza.txt
